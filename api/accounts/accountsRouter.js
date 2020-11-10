@@ -33,6 +33,15 @@ router.put('/:id', validateAccountId, validateAccount, (req, res) => {
         .catch(err => res.status(500).json({mes:'Server Error', err}))
 })
 
+//DELETE ROUTES
+
+router.delete('/:id', validateAccountId, (req, res) => {
+    const {id} = req.params;
+    Account.remove(id)
+        .then(account => res.status(200).json({mes: 'Account Delete', account}))
+        .catch(err => res.status(500).json({mes:'Server Error', err}))
+})
+
 //MIDDLEWARE FUNCTIONS
 
 function validateAccountId(req,res,next) {

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="582bae84-fa15-4d7d-9bc4-d4e3e087a4ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/accounts/accountsDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/accounts/accountsDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/accounts/accountsRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/accounts/accountsRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/budget.db3" beforeDir="false" afterPath="$PROJECT_DIR$/data/budget.db3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <workItem from="1604909996479" duration="160000" />
       <workItem from="1604910175104" duration="15000" />
       <workItem from="1604910204280" duration="2154000" />
-      <workItem from="1604978142226" duration="5278000" />
+      <workItem from="1604978142226" duration="5841000" />
     </task>
     <servers />
   </component>
