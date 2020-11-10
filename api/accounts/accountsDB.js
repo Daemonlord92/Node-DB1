@@ -23,7 +23,7 @@ function insert(account) {
     return db('accounts')
         .insert(account)
         .then(ids => {
-            return getById(id[0])
+            return getById(ids[0])
         });
 }
 
